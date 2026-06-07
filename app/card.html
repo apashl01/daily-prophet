@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>A Letter for Christine</title>
+<link href="https://fonts.googleapis.com/css2?family=UnifrakturCook:wght@700&family=IM+Fell+English:ital@0;1&family=IM+Fell+DW+Pica:ital@0;1&family=IM+Fell+English+SC&display=swap" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+<style>
+/* ============================================================
+   SET THIS ONE LINE after you deploy, then the QR + button work.
+   It should be your live site address, e.g.
+   const APP_URL = "https://yourname.github.io/daily-prophet/";
+   ============================================================ */
+  </style>
+<script>const APP_URL = "https://apashl01.github.io/daily-prophet/";</script>
+<style>
+*{box-sizing:border-box}
+html,body{margin:0;padding:0}
+body{min-height:100vh;display:flex;align-items:center;justify-content:center;padding:18px;
+  font-family:'IM Fell English',Georgia,serif;background:#2a231a;
+  background-image:radial-gradient(ellipse at 50% 30%, #3a3026, #211b14 90%)}
+.paper{position:relative;width:440px;max-width:100%;color:#2a1d0e;border-radius:5px;
+  background-color:#e3d4b0;background-image:radial-gradient(ellipse at 50% 50%, transparent 55%, rgba(70,50,20,0.22) 100%),linear-gradient(115deg,#e7d8b4,#dccaa0);
+  box-shadow:0 14px 40px rgba(0,0,0,0.5)}
+.grain{position:absolute;inset:0;border-radius:5px;pointer-events:none;opacity:0.45;mix-blend-mode:multiply;
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E")}
+.inner{position:relative;z-index:1}
+.envelope{padding:36px 30px 40px;text-align:center;cursor:pointer;transition:opacity .45s ease, transform .45s ease}
+.stamp{position:absolute;top:14px;right:16px;width:56px;height:66px;border:1px solid #6a2a12;background:#dcb6a8;
+  display:flex;align-items:center;justify-content:center;transform:rotate(3deg);font-family:'IM Fell English SC',serif;font-size:10px;color:#6a2a12;text-align:center;line-height:1.2;opacity:0.85}
+.addr{font-family:'IM Fell English',serif;font-style:italic;color:#1a5c3a;font-size:17px;line-height:1.7;margin:10px 0 28px;text-align:left;padding-left:20px}
+.addr .nm{font-style:normal;font-size:19px}
+.seal{width:96px;height:96px;border-radius:50%;margin:8px auto 12px;
+  background:radial-gradient(circle at 38% 34%, #9e3326, #6e1a14 70%);box-shadow:0 3px 6px rgba(0,0,0,0.3), inset 0 0 16px rgba(0,0,0,0.35);
+  display:flex;align-items:center;justify-content:center;border:1px solid #4a0f0c;transition:transform .2s}
+.seal:hover{transform:scale(1.05)}
+.seal span{font-family:'UnifrakturCook',serif;color:#f1dcc0;font-size:36px;text-shadow:0 1px 1px rgba(0,0,0,0.5)}
+.tap{font-family:'IM Fell English SC',serif;font-size:12px;letter-spacing:1.5px;color:#6a2a12;text-transform:uppercase;margin:4px 0 0}
+.letter{display:none;padding:32px 32px 36px;text-align:center}
+.letter.show{display:block;animation:fade .6s ease}
+@keyframes fade{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
+.mast{font-family:'IM Fell English SC',serif;font-size:32px;letter-spacing:1px;color:#241809;margin:0;line-height:1.1}
+.hr{border:0;border-top:1px solid #3a2812;opacity:0.6;margin:10px 30px 16px}
+.from{font-family:'IM Fell English SC',serif;font-size:11px;letter-spacing:1px;color:#6a2a12;text-transform:uppercase;margin:0 0 10px}
+.note{font-size:15.5px;font-style:italic;line-height:1.62;text-align:left;margin:0 0 18px}
+.note b{font-style:normal}
+.qrbox{width:148px;height:148px;margin:6px auto 10px;background:#f3ecda;padding:10px;border:1px solid #3a2812;display:flex;align-items:center;justify-content:center}
+.qrbox img,.qrbox canvas{display:block}
+.qr-ph{font-size:11px;font-style:italic;color:#6a5a35;text-align:center;line-height:1.4}
+.cta{display:inline-block;font-family:'IM Fell DW Pica',serif;font-size:17px;color:#1a5c3a;border:1px solid #1a5c3a;border-radius:4px;padding:8px 20px;text-decoration:none;margin:4px 0 6px}
+.cta:hover{background:rgba(26,92,58,0.08)}
+.scan{font-size:11px;font-style:italic;color:#5e4a26;margin:2px 0 0}
+.sign{font-family:'IM Fell English',serif;font-style:italic;font-size:15px;text-align:right;margin:16px 8px 0;color:#2a1d0e}
+</style>
+</head>
+<body>
+<div class="paper">
+  <div class="grain"></div>
+  <div class="inner">
+
+    <div class="envelope" id="env">
+      <div class="stamp">LATE<br>OWL<br>POST</div>
+      <p class="addr"><span class="nm">Miss Christine</span><br>The Cosiest Armchair<br>Beside the Window, Second Cushion<br><span style="font-size:14px">(Mind the dog)</span></p>
+      <div class="seal" id="seal"><span>P</span></div>
+      <p class="tap">Break the seal</p>
+    </div>
+
+    <div class="letter" id="letter">
+      <h1 class="mast">The Daily Prophet</h1>
+      <hr class="hr">
+      <p class="from">From the desk of the founding editor</p>
+      <p class="note">Dearest Christine,<br><br>The owl, I'm afraid, took the scenic route — somewhere over the Atlantic, by the look of him. But better a late owl than none, and this one carries something that won't run late again: <b>your very own Daily Prophet</b>, printed fresh every morning, all about you.<br><br>Scan below, or tap the link, and add it to your home screen. Happy birthday — a little belated, eternally meant.</p>
+      <div class="qrbox" id="qrbox"></div>
+      <a class="cta" id="cta" href="#">Open today's edition</a>
+      <p class="scan" id="scanline">Scan with your phone camera, then tap “Add to Home Screen.”</p>
+      <p class="sign">with love,<br>your brother</p>
+    </div>
+
+  </div>
+</div>
+<script>
+(function(){
+  var env=document.getElementById('env'),letter=document.getElementById('letter');
+  function open(){env.style.opacity='0';env.style.transform='scale(0.96)';setTimeout(function(){env.style.display='none';letter.classList.add('show');buildQR();},420);}
+  env.addEventListener('click',open);
+
+  function buildQR(){
+    var box=document.getElementById('qrbox'), cta=document.getElementById('cta'), scan=document.getElementById('scanline');
+    var ready = APP_URL && APP_URL.indexOf('http')===0;
+    if(ready){
+      cta.href=APP_URL;
+      try{ new QRCode(box,{text:APP_URL,width:128,height:128,colorDark:'#241809',colorLight:'#f3ecda',correctLevel:QRCode.CorrectLevel.M}); }
+      catch(e){ box.innerHTML='<div class="qr-ph">QR could not load —<br>use the link below.</div>'; }
+    } else {
+      box.innerHTML='<div class="qr-ph">QR appears here once<br>the site URL is set<br>at the top of this file.</div>';
+      cta.removeAttribute('href'); cta.style.opacity='0.5'; cta.style.pointerEvents='none';
+      scan.textContent='(sample card — set APP_URL to finish)';
+    }
+  }
+})();
+</script>
+</body>
+</html>
