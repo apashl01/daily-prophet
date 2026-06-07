@@ -1,0 +1,59 @@
+name: Print the Daily Prophet
+
+on:
+  schedule:
+    - cron: "0 11 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: daily-prophet
+  cancel-in-progress: false
+
+jobs:
+  print:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - name: Check out the press
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Generate today's edition
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: node scripts/generate.mjs
+
+      - name: Save the edition + storylines
+        run: |
+          git config user.name  "Daily Prophet Press"
+          git config user.email "press@dailyprophet.local"
+          git add app/edition app/archive state events.json
+          if git diff --cached --quiet; then
+            echo "Nothing new to commit."
+          else
+            git commit -m "Edition for $(date -u +%Y-%m-%d)"
+            git push
+          fi
+
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload the paper
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: app
+
+      - name: Deliver to the newsstand
+        id: deploy
+        uses: actions/deploy-pages@v4
