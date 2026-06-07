@@ -1,0 +1,56 @@
+{
+  "edition_date": "Sunday, 7 June",
+  "edition_number": 1,
+  "weather_line": "Misty in the hollows · ducks afoot",
+  "stories": [
+    {
+      "lead": true,
+      "section": "Front Page · Gringotts",
+      "headline": "\"They'll Never Take Our Galleons!\" — Liaison Rallies the Vault Floor",
+      "byline": "By our Diagon Alley correspondent",
+      "body": [
+        "When the goblins of Gringotts threatened to freeze every vault over a clause no one could read, it was Senior Client Liaison Christine who climbed the marble steps, faced the assembled horde, and delivered a speech that would have made a Highland chieftain weep.",
+        "\"They may take our interest rates,\" she is said to have declared, \"but they will never take our Galleons!\" The floor erupted. Vaults reopened by lunch. One goblin was seen quietly wiping an eye."
+      ],
+      "serial": null,
+      "photo": "christine_steve"
+    },
+    {
+      "lead": false,
+      "section": "Expedition",
+      "headline": "Enchanted Jeep Tames the Misty Hollows of the Gorge",
+      "byline": "Adventure desk",
+      "body": [
+        "Christine and husband Steve spent the weekend threading their enchanted Jeep through the fog-wreathed gorges of the Eastern Highlands. Where her charms plotted the route, his hands coaxed the rig over root and rock.",
+        "\"She reads the map,\" Steve said, elbow-deep in the engine. \"I make the map forgive us.\""
+      ],
+      "serial": { "title": "The Duck Bandit", "day": 3, "of": 5 },
+      "photo": "jeep"
+    },
+    {
+      "lead": false,
+      "section": "Ministry Watch",
+      "headline": "Glowing Briefcase Still Sealed; No One Will Say What's Inside",
+      "byline": "By our Ministry correspondent",
+      "body": [
+        "The mysterious golden briefcase recovered from the Department of Mysteries continues to emit a warm glow. Officials decline to confirm its contents. \"You don't want to know,\" said one. We do, in fact, want to know."
+      ],
+      "serial": { "title": "The Briefcase Mystery", "day": 2, "of": 5 },
+      "photo": null
+    }
+  ],
+  "familiars_corner": [
+    "Lucy remains at large in the Great Biscuit Heist. When questioned, she performed an alibi so smooth that two investigators apologised to her.",
+    "Ellie attempted to befriend her own reflection for the fourth day running. It is going well, she reports.",
+    "Jersey has filed formal claim to the warmest available lap. The claim is, as ever, undisputed."
+  ],
+  "founding_editor_note": "Built these presses myself, you know. Took a weekend. Mostly. Hug the dogs — and Christine, that bracket's still crooked. — D.",
+  "in_brief": {
+    "sport": "The Liaison was glimpsed deadlifting a fallen oak off the trail. She called it \"trail maintenance.\"",
+    "forecast": "Mist thick in the hollows. 90% chance of ducks. Briefcase: humming, intermittent."
+  },
+  "storyline_updates": [
+    { "title": "The Duck Bandit", "day": 3, "of": 5, "status": "active", "summary": "A fifth charmed duck appeared, this one in a knitted scarf; the Bandit grows fond." },
+    { "title": "The Briefcase Mystery", "day": 2, "of": 5, "status": "active", "summary": "The sealed glowing briefcase has begun, faintly, to hum." }
+  ]
+}

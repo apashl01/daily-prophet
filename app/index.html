@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#3a2812">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="The Daily Prophet">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="icon-180.png">
+<title>The Daily Prophet</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IM+Fell+English:ital@0;1&family=IM+Fell+DW+Pica:ital@0;1&family=IM+Fell+English+SC&display=swap" rel="stylesheet">
+<style>
+:root{ --ink:#2a1d0e; --ink-soft:#5e4a26; --accent:#6a2a12; --emerald:#1a5c3a; --scale:1; }
+*{box-sizing:border-box}
+html,body{margin:0;padding:0}
+body{
+  font-family:'IM Fell English',Georgia,serif;
+  color:var(--ink);
+  background-color:#cdbb91;
+  background-image:radial-gradient(ellipse at 50% 0%, #d8c8a0, #c2ad80 90%);
+  min-height:100vh;
+  -webkit-text-size-adjust:100%;
+}
+.paper{
+  max-width:760px;margin:0 auto;position:relative;
+  padding:calc(20px + env(safe-area-inset-top)) 20px calc(40px + env(safe-area-inset-bottom));
+  background-color:#e3d4b0;
+  background-image:
+    radial-gradient(circle at 16% 14%, rgba(120,90,40,0.14) 0 9px, transparent 11px),
+    radial-gradient(circle at 84% 9%, rgba(120,90,40,0.11) 0 12px, transparent 13px),
+    radial-gradient(circle at 70% 92%, rgba(110,80,35,0.12) 0 15px, transparent 16px),
+    radial-gradient(ellipse at 50% 45%, transparent 60%, rgba(70,50,20,0.20) 100%),
+    linear-gradient(120deg, #e7d8b4, #ddcca2);
+  box-shadow:0 0 40px rgba(40,25,8,0.18);
+}
+.grain{position:absolute;inset:0;pointer-events:none;opacity:0.42;mix-blend-mode:multiply;
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");}
+.ink{position:relative;z-index:1}
+
+.topbar{display:flex;justify-content:space-between;align-items:center;font-family:'IM Fell English SC',serif;font-size:11px;letter-spacing:1px;text-transform:uppercase;color:var(--accent)}
+.topbar button{font-family:inherit;font-size:11px;letter-spacing:1px;text-transform:uppercase;color:var(--accent);background:transparent;border:1px solid rgba(106,42,18,0.4);border-radius:3px;padding:3px 8px;cursor:pointer}
+.topbar button:active{background:rgba(106,42,18,0.1)}
+.scaler span{padding:0 6px}
+
+.mast{font-family:'IM Fell English SC',serif;text-align:center;color:#241809;
+  font-size:calc(46px * var(--scale));line-height:1.04;letter-spacing:1px;margin:8px 0 0;
+  text-shadow:0 0 0.6px rgba(40,25,8,0.4);}
+.tagline{text-align:center;font-style:italic;font-size:calc(12.5px * var(--scale));margin:6px 8px 0;color:var(--ink)}
+.rule{border:0;border-top:2px solid #3a2812;opacity:0.8;margin:10px 0 3px}
+.rule.thin{border-top-width:1px;opacity:0.6;margin:3px 0 12px}
+.dateline{display:flex;justify-content:space-between;flex-wrap:wrap;gap:4px;font-family:'IM Fell English SC',serif;font-size:calc(11px * var(--scale));letter-spacing:1px;text-transform:uppercase}
+
+.edition{column-gap:26px}
+@media(min-width:680px){ .edition{column-count:2} .lead{column-span:all} }
+
+.story{break-inside:avoid;margin:0 0 20px}
+.serial-tag{font-family:'IM Fell English SC',serif;font-size:calc(11px * var(--scale));letter-spacing:1px;text-transform:uppercase;color:var(--accent);margin:0 0 2px}
+.kicker{font-family:'IM Fell English SC',serif;font-size:calc(10px * var(--scale));letter-spacing:2px;text-transform:uppercase;color:var(--accent);margin:0 0 3px}
+.headline{font-family:'IM Fell DW Pica',serif;font-weight:400;line-height:1.08;margin:0 0 6px;color:#241809}
+.lead .headline{font-size:calc(30px * var(--scale))}
+.story .headline{font-size:calc(20px * var(--scale))}
+.byline{font-size:calc(11.5px * var(--scale));font-style:italic;color:var(--ink-soft);margin:0 0 7px}
+.story p.para{font-size:calc(15px * var(--scale));line-height:1.55;text-align:justify;margin:0 0 9px;hyphens:auto}
+.lead p.para:first-of-type::first-letter{font-family:'IM Fell DW Pica',serif;font-size:calc(46px * var(--scale));float:left;line-height:0.78;padding:4px 6px 0 0}
+
+.photo{margin:0 0 10px;border:1px solid #3a2812;padding:6px;background:#d8c79e}
+.photo .frame{position:relative;overflow:hidden;border:1px solid #5a4222;background:linear-gradient(160deg,#b9a578,#8f7a4e)}
+.photo img{display:block;width:100%;height:auto;filter:sepia(0.55) contrast(1.04) brightness(0.96);
+  animation:sway 7s ease-in-out infinite;transform-origin:center}
+@keyframes sway{0%,100%{transform:scale(1.02) translate(0,0)}50%{transform:scale(1.05) translate(0,-1.5%)}}
+.photo .halftone{position:absolute;inset:0;pointer-events:none;mix-blend-mode:multiply;opacity:0.30;
+  background-image:repeating-radial-gradient(circle at 0 0, rgba(40,28,12,0.7) 0 0.5px, transparent 1.4px 3px);background-size:3px 3px}
+.photo .nofoto{height:120px;display:flex;align-items:center;justify-content:center;font-style:italic;color:#efe6cf;font-size:12px;text-align:center;padding:8px}
+.photo .cap{font-size:calc(11px * var(--scale));font-style:italic;text-align:center;margin:6px 2px 0}
+
+.boxed{break-inside:avoid;border:1px double #3a2812;padding:10px 12px;margin:0 0 18px;background:rgba(225,210,170,0.5)}
+.boxed h3{font-family:'IM Fell DW Pica',serif;font-weight:400;text-align:center;text-transform:uppercase;letter-spacing:1px;font-size:calc(15px * var(--scale));margin:0 0 8px}
+.boxed p{font-size:calc(13px * var(--scale));line-height:1.5;text-align:justify;margin:0 0 7px}
+.boxed p:last-child{margin-bottom:0}
+.editor{background:rgba(216,198,150,0.55)}
+.editor p{font-style:italic;text-align:center}
+.editor .who{font-style:normal;font-size:calc(11px * var(--scale));display:block;margin-top:5px}
+
+.loading,.errbox{text-align:center;font-style:italic;color:var(--ink-soft);padding:40px 10px}
+.foot{text-align:center;font-family:'IM Fell English SC',serif;font-size:10px;letter-spacing:1px;text-transform:uppercase;color:var(--accent);margin-top:8px;opacity:0.8}
+</style>
+</head>
+<body>
+<div class="paper">
+  <div class="grain"></div>
+  <div class="ink">
+    <div class="topbar">
+      <span id="edno">The Daily Prophet</span>
+      <span class="scaler">
+        <button id="dec" aria-label="Smaller text">A−</button>
+        <span>Text</span>
+        <button id="inc" aria-label="Larger text">A+</button>
+        <button id="refresh" aria-label="Refresh">↻</button>
+      </span>
+    </div>
+    <h1 class="mast">The Daily Prophet</h1>
+    <p class="tagline">Wizarding Britain's Most Trusted Chronicle · Founded &amp; built by hand by Don, Editor Emeritus</p>
+    <hr class="rule"><hr class="rule thin">
+    <div class="dateline"><span id="date">—</span><span>Late Owl Edition</span><span id="weather">—</span></div>
+    <hr class="rule thin">
+    <div id="content"><div class="loading">An owl is en route with today's edition…</div></div>
+    <p class="foot">For Christine · with love</p>
+  </div>
+</div>
+<script>
+const PHOTOS = {
+  christine_steve: { src: "photos/christine_steve.jpg", cap: "Our celebrated Liaison; the image will not hold still." },
+  jeep:            { src: "photos/jeep.jpg",            cap: "The enchanted Jeep at work in the hollows." },
+  dogs:            { src: "photos/dogs.jpg",            cap: "The familiars, off duty." },
+  dad:             { src: "photos/dad.jpg",             cap: "The founding editor, watching over the presses." }
+};
+
+let scale = parseFloat(localStorage.getItem('dp-scale') || '1');
+function applyScale(){ document.documentElement.style.setProperty('--scale', scale); localStorage.setItem('dp-scale', scale); }
+applyScale();
+document.getElementById('inc').onclick = () => { scale = Math.min(1.6, +(scale+0.1).toFixed(2)); applyScale(); };
+document.getElementById('dec').onclick = () => { scale = Math.max(0.8, +(scale-0.1).toFixed(2)); applyScale(); };
+document.getElementById('refresh').onclick = () => load(true);
+
+function esc(s){ return String(s).replace(/[&<>]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;'}[c])); }
+
+function photoHTML(tag){
+  if(!tag) return '';
+  const p = PHOTOS[tag];
+  if(!p) return '';
+  return `<div class="photo"><div class="frame">
+      <img src="${p.src}" alt="" onerror="this.parentNode.innerHTML='&lt;div class=\\'nofoto\\'&gt;[ a moving photograph ]&lt;/div&gt;'">
+      <div class="halftone"></div>
+    </div><p class="cap">${esc(p.cap)}</p></div>`;
+}
+
+function storyHTML(s){
+  const serial = s.serial ? `<p class="serial-tag">${esc(s.serial.title)} · Day ${s.serial.day} of ${s.serial.of}</p>` : '';
+  const kicker = s.section ? `<p class="kicker">${esc(s.section)}</p>` : '';
+  const photo = photoHTML(s.photo);
+  const paras = (s.body||[]).map(p => `<p class="para">${esc(p)}</p>`).join('');
+  const byline = s.byline ? `<p class="byline">${esc(s.byline)}</p>` : '';
+  return `<div class="story ${s.lead?'lead':''}">${serial}${kicker}<h2 class="headline">${esc(s.headline)}</h2>${byline}${photo}${paras}</div>`;
+}
+
+function render(ed){
+  document.getElementById('edno').textContent = 'No. ' + (ed.edition_number||'—');
+  document.getElementById('date').textContent = ed.edition_date || '';
+  document.getElementById('weather').textContent = ed.weather_line || '';
+  const stories = (ed.stories||[]).slice().sort((a,b)=> (b.lead?1:0)-(a.lead?1:0));
+  let html = '<div class="edition">';
+  html += stories.map(storyHTML).join('');
+  if(ed.familiars_corner && ed.familiars_corner.length){
+    html += `<div class="boxed"><h3>The Familiars' Corner</h3>${ed.familiars_corner.map(f=>`<p>${esc(f)}</p>`).join('')}</div>`;
+  }
+  if(ed.founding_editor_note){
+    html += `<div class="boxed editor"><h3>From the Founding Editor's Portrait</h3><p>${esc(ed.founding_editor_note)}<span class="who">Don's portrait taps the frame and returns to his crossword.</span></p></div>`;
+  }
+  if(ed.in_brief){
+    html += `<div class="boxed"><h3>In Brief</h3>${ed.in_brief.sport?`<p><b>Sport:</b> ${esc(ed.in_brief.sport)}</p>`:''}${ed.in_brief.forecast?`<p><b>Forecast:</b> ${esc(ed.in_brief.forecast)}</p>`:''}</div>`;
+  }
+  html += '</div>';
+  document.getElementById('content').innerHTML = html;
+}
+
+async function load(force){
+  document.getElementById('content').innerHTML = '<div class="loading">An owl is en route with today’s edition…</div>';
+  const bust = force ? ('?t=' + Date.now()) : '';
+  try{
+    let res = await fetch('edition/today.json' + bust, {cache:'no-store'});
+    if(!res.ok) throw new Error('no live edition');
+    render(await res.json());
+  }catch(e){
+    try{
+      let res = await fetch('sample-edition.json' + bust, {cache:'no-store'});
+      render(await res.json());
+    }catch(e2){
+      document.getElementById('content').innerHTML = '<div class="errbox">The owl appears to be lost over the Atlantic. Try again shortly.</div>';
+    }
+  }
+}
+load();
+
+if('serviceWorker' in navigator){ window.addEventListener('load', () => navigator.serviceWorker.register('sw.js').catch(()=>{})); }
+</script>
+</body>
+</html>

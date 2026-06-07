@@ -1,0 +1,14 @@
+{
+  "name": "The Daily Prophet",
+  "short_name": "Daily Prophet",
+  "description": "Christine's very own wizarding newspaper, printed fresh each morning.",
+  "start_url": "index.html",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#cdbb91",
+  "theme_color": "#3a2812",
+  "icons": [
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+  ]
+}
