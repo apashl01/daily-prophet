@@ -1,76 +1,90 @@
 {
   "edition_date": "Sunday, 7 June",
   "edition_number": 1,
-  "weather_line": "Misty in the hollows · ducks afoot",
+  "weather_line": "Warm with scattered enchantments · owl post running forty-eight hours late, as usual",
   "stories": [
     {
       "lead": true,
-      "section": "Front Page · Gringotts",
-      "headline": "\"They'll Never Take Our Galleons!\" — Liaison Rallies the Vault Floor",
-      "byline": "By our Diagon Alley correspondent",
+      "section": "Front Page · Society & Celebrations",
+      "headline": "LATE OWL DELIVERS: Prophet Wishes Christine a Belated Happy Birthday (The Bird Is Very Sorry)",
+      "byline": "By our Celebrations Correspondent, who also blames the owl",
       "body": [
-        "When the goblins of Gringotts threatened to freeze every vault over a clause no one could read, it was Senior Client Liaison Christine who climbed the marble steps, faced the assembled horde, and delivered a speech that would have made a Highland chieftain weep.",
-        "\"They may take our interest rates,\" she is said to have declared, \"but they will never take our Galleons!\" The floor erupted. Vaults reopened by lunch. One goblin was seen quietly wiping an eye."
+        "In what Ministry observers are calling 'an administrative irregularity of the first order,' the official Daily Prophet birthday greeting for celebrated Gringotts Senior Client Liaison Christine arrived a full forty-eight hours late — carried by one Gerald, a tawny owl of advanced years and considerable personal dignity, who landed on the kitchen windowsill this morning wearing an expression that dared anyone to say a word about it.",
+        "Gerald's dispatch, once unrolled, read simply: 'BELATED HAPPY BIRTHDAY TO THE FINEST WITCH IN THE BUILDING.' Sources confirm the sentiment is, if anything, stronger for the delay. Gringotts Head Teller Gripknack paused mid-ledger-stamping to remark that Christine is 'the only human who has ever made us feel that an audit could be, in some lights, enjoyable,' which is the highest praise a goblin has offered a witch since 1842.",
+        "Steve, reached for comment while coaxing the enchanted Jeep out of a mild sulk in the driveway, said only that he knew exactly how lucky he was, and that the Jeep — which lit all four headlamps briefly and unprompted — appeared to agree. Lucy was observed stealing a corner of the birthday cake. No evidence was recovered. Many happy returns, Christine. The Prophet is, and always will be, yours."
       ],
       "serial": null,
       "photo": "christine_steve"
     },
     {
       "lead": false,
-      "section": "Expedition",
-      "headline": "Enchanted Jeep Tames the Misty Hollows of the Gorge",
-      "byline": "Adventure desk",
+      "section": "Gringotts Watch",
+      "headline": "Goblin Bureaucracy Attempts Three-Form Audit Override; Routed in Under Eleven Minutes",
+      "byline": "By our Diagon Alley correspondent",
       "body": [
-        "Christine and husband Steve spent the weekend threading their enchanted Jeep through the fog-wreathed gorges of the Eastern Highlands. Where her charms plotted the route, his hands coaxed the rig over root and rock.",
-        "\"She reads the map,\" Steve said, elbow-deep in the engine. \"I make the map forgive us.\""
+        "A coalition of Gringotts sub-clerks launched what insiders are calling a 'lateral paperwork ambush' on Vault Corridor Seven on Friday morning, presenting Christine with seventeen overlapping counter-claim forms in an attempt to freeze the Thornwick family account during a routine quarterly review.",
+        "The ambush lasted eleven minutes. Christine, reportedly sipping her first coffee of the morning, worked through all seventeen forms with a red-tipped quill and a composure that one junior goblin later described as 'honestly a bit frightening.' By 9:22 a.m. the account was unfrozen, two of the forms had been declared legally redundant, and the sub-clerks had dispersed. The Highland war-cry was reportedly not necessary, though witnesses claim she did tap her quill once on the desk in a way that had the same effect."
+      ],
+      "serial": null,
+      "photo": null
+    },
+    {
+      "lead": false,
+      "section": "Expedition Desk",
+      "headline": "The Duck Bandit Strikes Again: Sixth Charmed Duck Bears a Tiny Birthday Hat",
+      "byline": "Adventure and Creature Correspondent",
+      "body": [
+        "The Jeep was found this morning bearing a sixth charmed rubber duck — this one sporting a miniature pointed hat in birthday gold, enchanted to squeak 'Many Returns!' when pressed. The Bandit, it seems, reads the society pages.",
+        "Steve examined the duck for tracking charms and found none, though he noted the Jeep's tyres were freshly and inexplicably clean of yesterday's mud, which he described as 'suspicious, but appreciated.' Christine has reportedly begun leaving a small dish of Chocolate Frogs on the dashboard as an offering. The Bandit has, so far, taken nothing. This newspaper's investigation continues."
       ],
       "serial": {
         "title": "The Duck Bandit",
-        "day": 3,
+        "day": 1,
         "of": 5
       },
       "photo": "jeep"
     },
     {
       "lead": false,
-      "section": "Ministry Watch",
-      "headline": "Glowing Briefcase Still Sealed; No One Will Say What's Inside",
-      "byline": "By our Ministry correspondent",
+      "section": "Ministry Watch · Curious Objects Bureau",
+      "headline": "Glowing Briefcase Clears Security Checkpoint; Officials Decline to Open It, Smile Nervously",
+      "byline": "Ministry desk",
       "body": [
-        "The mysterious golden briefcase recovered from the Department of Mysteries continues to emit a warm glow. Officials decline to confirm its contents. \"You don't want to know,\" said one. We do, in fact, want to know."
+        "The sealed luminous briefcase — first reported passing through the Ministry atrium three days ago — cleared the Level Four security checkpoint yesterday after a brief standoff with two Aurors and a very uncertain sniffer-Niffler. The Niffler circled it four times, sat down, and refused to continue.",
+        "A Ministry spokesperson confirmed only that the briefcase is 'of significant importance to all parties concerned' and that it has begun to hum at a frequency that makes the vending machines on Level Six dispense Bertie Bott's Every Flavour Beans at random intervals. The contents remain unknown. The glow, this correspondent notes, is the precise warm gold of something that everyone badly wants and no one can quite explain."
       ],
       "serial": {
         "title": "The Briefcase Mystery",
-        "day": 2,
+        "day": 1,
         "of": 5
       },
       "photo": null
     }
   ],
   "familiars_corner": [
-    "Lucy remains at large in the Great Biscuit Heist. When questioned, she performed an alibi so smooth that two investigators apologised to her.",
-    "Ellie attempted to befriend her own reflection for the fourth day running. It is going well, she reports.",
-    "Jersey has filed formal claim to the warmest available lap. The claim is, as ever, undisputed."
+    "Lucy: Categorically denies eating the corner off the birthday cake, and would like everyone to note that she was on the other side of the room at all relevant times. There is no evidence. There will be no evidence.",
+    "Ellie: Discovered the birthday balloons this morning and spent a deeply sincere twenty minutes introducing herself to the shiny ones. She believes they are new friends. She is very happy for Christine, and also possibly for the balloons.",
+    "Jersey: Secured the prime lap position on the sofa by 7:03 a.m. and has been holding it as a birthday gift, in the sense that he is very warm and has no plans to move."
   ],
-  "founding_editor_note": "Built these presses myself, you know. Took a weekend. Mostly. Hug the dogs — and Christine, that bracket's still crooked. — D.",
+  "founding_editor_note": "Built the first Prophet press with a borrowed level and a bad back, and it ran straighter than anything they sell today — happy birthday to the girl who keeps everything else running just as straight. — D.",
   "in_brief": {
-    "sport": "The Liaison was glimpsed deadlifting a fallen oak off the trail. She called it \"trail maintenance.\"",
-    "forecast": "Mist thick in the hollows. 90% chance of ducks. Briefcase: humming, intermittent."
+    "sport": "Hogsmeade Weightlifting Invitational postponed after organisers quietly realised no one else in the bracket stood a reasonable chance.",
+    "forecast": "Continued warmth through Tuesday; late owls may still be in transit — do not expect punctuality before Thursday at the earliest."
   },
   "storyline_updates": [
     {
       "title": "The Duck Bandit",
-      "day": 3,
+      "day": 1,
       "of": 5,
       "status": "active",
-      "summary": "A fifth charmed duck appeared, this one in a knitted scarf; the Bandit grows fond."
+      "summary": "A sixth charmed duck appeared on the Jeep wearing a tiny birthday hat enchanted to squeak 'Many Returns!' — the Bandit appears to know Christine personally, or reads the society pages. Christine has left Chocolate Frogs on the dashboard as an offering. Steve found no tracking charms but noted the tyres were mysteriously clean."
     },
     {
       "title": "The Briefcase Mystery",
-      "day": 2,
+      "day": 1,
       "of": 5,
       "status": "active",
-      "summary": "The sealed glowing briefcase has begun, faintly, to hum."
+      "summary": "The glowing briefcase cleared Level Four Ministry security after unnerving two Aurors and a sniffer-Niffler. It now hums at a frequency that affects the Level Six vending machines. Contents still entirely unknown. Glow described as warm gold."
     }
   ]
 }

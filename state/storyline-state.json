@@ -1,3 +1,18 @@
 {
-  "arcs": []
+  "arcs": [
+    {
+      "title": "The Duck Bandit",
+      "day": 1,
+      "of": 5,
+      "status": "active",
+      "summary": "A sixth charmed duck appeared on the Jeep wearing a tiny birthday hat enchanted to squeak 'Many Returns!' — the Bandit appears to know Christine personally, or reads the society pages. Christine has left Chocolate Frogs on the dashboard as an offering. Steve found no tracking charms but noted the tyres were mysteriously clean."
+    },
+    {
+      "title": "The Briefcase Mystery",
+      "day": 1,
+      "of": 5,
+      "status": "active",
+      "summary": "The glowing briefcase cleared Level Four Ministry security after unnerving two Aurors and a sniffer-Niffler. It now hums at a frequency that affects the Level Six vending machines. Contents still entirely unknown. Glow described as warm gold."
+    }
+  ]
 }
