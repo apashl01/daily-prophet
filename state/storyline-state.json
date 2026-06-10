@@ -2,17 +2,17 @@
   "arcs": [
     {
       "title": "The Duck Bandit",
-      "day": 3,
+      "day": 4,
       "of": 5,
       "status": "active",
-      "summary": "The seventh duck's map has been authenticated by Ministry cartographers — it accurately charts a real trail northeast of the Gorge. Steve is preparing the Jeep. Christine has said 'Thursday.' The Jeep started on its own when she said it. The Bandit appears to have been leading them somewhere specific all along; the trail destination and the Bandit's identity are yet to be revealed."
+      "summary": "An eighth duck appeared bearing explorer's hat and a note with Hollow Crown Ridge coordinates reading 'Tomorrow. I'll be there.' The Bandit was briefly glimpsed near the Jeep — small, methodical, carrying something rubbery. Christine has declared the Bandit known enough and confirmed departure at dawn Thursday. Final reveal set for the trail itself."
     },
     {
-      "title": "The Briefcase Mystery",
-      "day": 3,
-      "of": 5,
+      "title": "The Hollow Crown Expedition",
+      "day": 1,
+      "of": 4,
       "status": "active",
-      "summary": "A sealed gold-ribboned envelope appeared from the vending machine, addressed in smug elegant handwriting, and now sits beside the briefcase. The hum has gained a second note — a perfect fifth harmony. A recovered memo from Level Three states 'it was always going to end up with her' and refers to the case's contents as 'the thing.' The Ministry has re-filed the memo behind the radiator. Contents still unknown; resolution drawing close."
+      "summary": "A new arc opens: Christine and Steve depart Thursday for Hollow Crown Ridge, northeast of the Gorge, following the duck-map's coordinates. The Jeep is ready and barely containing itself. The Duck Bandit has promised to be there. What the ridge holds — and who the Bandit truly is — is yet to be seen."
     }
   ]
 }
