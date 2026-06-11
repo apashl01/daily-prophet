@@ -1,18 +1,11 @@
 {
   "arcs": [
     {
-      "title": "The Duck Bandit",
-      "day": 4,
-      "of": 5,
-      "status": "active",
-      "summary": "An eighth duck appeared bearing explorer's hat and a note with Hollow Crown Ridge coordinates reading 'Tomorrow. I'll be there.' The Bandit was briefly glimpsed near the Jeep — small, methodical, carrying something rubbery. Christine has declared the Bandit known enough and confirmed departure at dawn Thursday. Final reveal set for the trail itself."
-    },
-    {
       "title": "The Hollow Crown Expedition",
-      "day": 1,
+      "day": 2,
       "of": 4,
       "status": "active",
-      "summary": "A new arc opens: Christine and Steve depart Thursday for Hollow Crown Ridge, northeast of the Gorge, following the duck-map's coordinates. The Jeep is ready and barely containing itself. The Duck Bandit has promised to be there. What the ridge holds — and who the Bandit truly is — is yet to be seen."
+      "summary": "Christine and Steve reached the granite shelf, met the Duck Bandit, drank tea, then found an unmapped stone arch framing a three-gorge panorama that left Steve speechless and Christine standing still in it for a long moment. A tenth duck appeared on the bonnet. The Jeep is satisfied. Tomorrow: what lies deeper in the hollow below, and whether the unlisted arch holds any further secrets."
     }
   ]
 }
