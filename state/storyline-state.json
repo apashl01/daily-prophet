@@ -2,10 +2,17 @@
   "arcs": [
     {
       "title": "The Second Bookmark",
-      "day": 2,
+      "day": 3,
       "of": 4,
       "status": "active",
-      "summary": "Christine has been fully briefed on the second bookmark — she found it herself and asked four clarifying questions before Steve finished answering the first. He answered all four. The Jeep's mirrors are set. No departure date is set but the bookmark has been moved to a flat page, which the Adventure Desk considers the last step before an announcement. Day 3 should cover either a departure date being named, or the first real detail about what the fold forty miles east of Jellico actually contains — what Steve saw there, or heard about, that made it worth two bookmarks."
+      "summary": "Steve has named the location aloud: Heron Shelf, forty miles east of Jellico, a rock formation overhanging a hollow large enough to stand in, accessed by a track that probably shouldn't still exist. Christine studied the only photograph for ninety seconds and asked about the gradient. He answered. The Adventure Desk considers departure imminent. Day 4 should cover the departure itself — or the morning of it — and what the shelf turns out to be when they arrive."
+    },
+    {
+      "title": "The Glowing Briefcase",
+      "day": 1,
+      "of": 5,
+      "status": "active",
+      "summary": "A new arc opens: the Ministry's luminous briefcase, previously classified 'not a concern,' has been reclassified 'under active review' with no explanation for what changed. It was seen near the Level Three lifts at half past four, glowing amber. Everyone who passed it felt it contained exactly what they'd been looking for. It has not been opened. Day 2 should deepen the mystery — perhaps it moves again, or someone attempts to open it, or its origins begin to surface."
     }
   ]
 }
