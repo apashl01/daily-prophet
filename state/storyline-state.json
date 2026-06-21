@@ -1,18 +1,18 @@
 {
   "arcs": [
     {
-      "title": "The Glowing Briefcase",
+      "title": "The Duck Bandit",
       "day": 2,
       "of": 5,
       "status": "active",
-      "summary": "The briefcase has migrated overnight from Level Three to Level Two without explanation, and its glow has shifted from amber to gold. A clerk named Whitmore attempted to open it and found himself peacefully emptied of intention — no distress, just a complete inability to recall what he wanted. The Ministry has upgraded its statement while still naming nothing and nobody. Day 3 should reveal something about the briefcase's origin or contents — perhaps a label, a sound, or someone who recognises it from somewhere they can't quite place."
+      "summary": "The Heron Shelf duck has yielded a note: 'Nice find. — B.' Small, neat hand, no registry mark. A retired tracker confirmed the Bandit knew about Christine's second overhang — meaning they arrived after Christine and Steve did, or were watching. The eastern approach tracks are now a lead. Christine has asked the right question. Day 3 should bring a witness, a vehicle description, or a second duck somewhere unexpected — the Bandit appears to be escalating."
     },
     {
-      "title": "The Duck Bandit",
-      "day": 1,
+      "title": "The Glowing Briefcase",
+      "day": 3,
       "of": 5,
       "status": "active",
-      "summary": "A new arc formalised from ongoing texture: the Duck Bandit placed a rubber duck on the Jeep at Heron Shelf, forty miles east of Jellico, accessible only by a difficult track. This represents the Bandit's most remote confirmed placement. The investigation has been upgraded to a Regional Incident. Day 2 should explore how the duck got there — a witness, a second vehicle, a trail sighting, or a clue on the duck itself."
+      "summary": "The briefcase is now gold, humming, and resident on Level Two. It has begun emitting a sound that everyone recognises but nobody can place — described as 'the sound of knowing where you left something important.' The Artefact Office has noted what may be a monogram on the lid, unrecognised in any registry. The Ministry continues to explain nothing. Day 4 should bring a partial identification — someone who has seen that monogram before, or a record that almost matches — moving toward a Day 5 reveal of origin or ownership."
     }
   ]
 }
