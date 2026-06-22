@@ -2,17 +2,17 @@
   "arcs": [
     {
       "title": "The Duck Bandit",
-      "day": 2,
-      "of": 5,
-      "status": "active",
-      "summary": "The Heron Shelf duck has yielded a note: 'Nice find. — B.' Small, neat hand, no registry mark. A retired tracker confirmed the Bandit knew about Christine's second overhang — meaning they arrived after Christine and Steve did, or were watching. The eastern approach tracks are now a lead. Christine has asked the right question. Day 3 should bring a witness, a vehicle description, or a second duck somewhere unexpected — the Bandit appears to be escalating."
-    },
-    {
-      "title": "The Glowing Briefcase",
       "day": 3,
       "of": 5,
       "status": "active",
-      "summary": "The briefcase is now gold, humming, and resident on Level Two. It has begun emitting a sound that everyone recognises but nobody can place — described as 'the sound of knowing where you left something important.' The Artefact Office has noted what may be a monogram on the lid, unrecognised in any registry. The Ministry continues to explain nothing. Day 4 should bring a partial identification — someone who has seen that monogram before, or a record that almost matches — moving toward a Day 5 reveal of origin or ownership."
+      "summary": "A second duck has appeared overnight on the Jeep's bonnet — in residential conditions, not on any trail — wearing a deerstalker and carrying a note reading 'Warmer.' The Jeep made no protest, which is being treated as significant. The Investigation Board has upgraded the file to Active Pursuit, Multi-Environment. Day 4 should deliver a witness description, a vehicle, or an identity tease — the Bandit is getting bolder and 'Warmer' suggests they're guiding Christine toward something rather than simply escalating."
+    },
+    {
+      "title": "The Glowing Briefcase",
+      "day": 4,
+      "of": 5,
+      "status": "active",
+      "summary": "The monogram on the lid matches a single record: Vault 0019-Oblique, sealed March 1987, owner listed as deceased, matter marked closed. The briefcase has begun humming with increased purpose since this discovery. Gringotts has been formally asked to cross-reference; Christine has already sent a follow-up memo. Day 5 should resolve the mystery — the vault record is accessed, the owner's identity is revealed, and the briefcase either opens or makes clear what it has been waiting for. The reveal should be funny, surprising, and satisfying."
     }
   ]
 }
