@@ -1,18 +1,11 @@
 {
   "arcs": [
     {
-      "title": "The Duck Bandit",
-      "day": 4,
-      "of": 5,
-      "status": "active",
-      "summary": "A witness, Mrs. Edna Prewett, observed the Bandit at 2 a.m.: older muddy Jeep, waterproof jacket covered in duck insignia, practised and unhurried. Three trail-keepers confirm the same vehicle has been tracking Christine's recent destinations — not following, but anticipating. Day 5 should deliver the identity reveal or a final confrontation: who is the Bandit, what is the game, and what is the last duck actually for?"
-    },
-    {
       "title": "The Third Fold",
-      "day": 1,
+      "day": 2,
       "of": 4,
       "status": "active",
-      "summary": "New arc opening quietly: Steve's map has a third fold at a ridgeline north-northwest of Heron Shelf, listed on enchanted charts as 'Disputed (Atmospheric).' The fold is already on a flat page. Christine has walked past the map twice without comment. Day 2 should cover the briefing — and whether 'Disputed (Atmospheric)' turns out to mean weather, magic, or something Steve already knows about and is building up to."
+      "summary": "Steve has briefed Christine on the full story: a 1962 four-foot elevation dispute between two survey teams, both irreconcilable, both unreturned. He rates his own theory at seven out of ten. Christine has the survey notes — he printed them in March. Neither party has yet said aloud that Orvell's brass duck coordinates and the Third Fold appear to point to the same ridgeline, but both parties are aware of it. Day 3 should cover that acknowledgment and the first real planning — or an unexpected complication at the disputed ridgeline that the brass duck's coordinates hint at."
     }
   ]
 }
