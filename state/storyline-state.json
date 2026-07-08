@@ -2,10 +2,17 @@
   "arcs": [
     {
       "title": "The Crumb Commendation",
-      "day": 1,
+      "day": 2,
       "of": 3,
       "status": "active",
-      "summary": "New arc opening quietly: Mr. Percival Crumb of Vault 339 has submitted a written commendation that has been filed at Gringotts — itself unprecedented. The duty goblin has read it twice. There is some internal question about whether the commendation creates an obligation, sets a precedent, or simply means what it says. Day 2 should cover the goblin response — whether they file it further, frame it, dispute it, or use it as a bargaining chip in some entirely unrelated matter."
+      "summary": "The Gringotts Internal Precedent Sub-Committee has convened and is unable to determine whether a written commendation constitutes a liability, an anomaly, or simply what it says. A proposal to reclassify it as a 'reversed-polarity grievance' was abandoned when someone noted it would require notifying Christine. The sub-committee has until Friday. Day 3 should deliver the resolution: the goblins find a filing category, attempt to use the commendation as leverage in something unrelated, or — most alarming of all — quietly frame it. Christine's reaction to whichever outcome arrives should be the note on which the arc closes."
+    },
+    {
+      "title": "Passable (Conditional)",
+      "day": 1,
+      "of": 4,
+      "status": "active",
+      "summary": "New arc opening quietly: a new section of enchanted trail chart covering terrain southwest of the November Hempworth watershed has appeared on the kitchen table, unfolded, bearing the notation 'Passable (Conditional).' Steve has not mentioned it. Christine has walked past it twice. The brass ducks may be involved. Day 2 should begin to surface what 'Conditional' refers to — whether it is seasonal, structural, or something the chart is declining to specify — and whether Steve has already formed a working theory."
     }
   ]
 }
