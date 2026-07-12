@@ -2,10 +2,10 @@
   "arcs": [
     {
       "title": "The Briefcase Returns",
-      "day": 1,
+      "day": 2,
       "of": 4,
       "status": "active",
-      "summary": "New arc opening quietly: a glowing briefcase logged as 'Unattended (Luminous)' passed through Ministry security at eleven-oh-three Friday evening and was collected by a short, unnamed man in a suit who appeared extremely motivated. The Ministry's Saturday bulletin referenced it once and did not return to the subject. Day 2 should establish where the briefcase went — whether it surfaces in Diagon Alley, at Gringotts, or somewhere altogether less expected — and who, if anyone, is looking for it."
+      "summary": "Day 2: The briefcase has been traced to the back room of Weasleys' Wizard Wheezes in Diagon Alley. Two Ministry investigators visited, returned, and declined to report. The man in the suit remains unaccounted for. The briefcase continues to glow and has not been opened. It has been placed somewhere described as 'appropriate.' The Ministry considers the situation developing. Day 3 should bring either the man in the suit back into the picture, an attempt to open the briefcase, or an unexpected Gringotts connection — the goblins have an opinion about luminous unattended items and it is possible Christine will be consulted."
     }
   ]
 }
