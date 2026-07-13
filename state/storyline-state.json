@@ -2,10 +2,17 @@
   "arcs": [
     {
       "title": "The Briefcase Returns",
-      "day": 2,
+      "day": 3,
       "of": 4,
       "status": "active",
-      "summary": "Day 2: The briefcase has been traced to the back room of Weasleys' Wizard Wheezes in Diagon Alley. Two Ministry investigators visited, returned, and declined to report. The man in the suit remains unaccounted for. The briefcase continues to glow and has not been opened. It has been placed somewhere described as 'appropriate.' The Ministry considers the situation developing. Day 3 should bring either the man in the suit back into the picture, an attempt to open the briefcase, or an unexpected Gringotts connection — the goblins have an opinion about luminous unattended items and it is possible Christine will be consulted."
+      "summary": "Day 3: Gringotts invoked Statute 7 of the Luminous Unattended Items Accord and formally requested Christine's consultation. She identified a procedural irregularity in the Accord's third sub-clause; the goblins acknowledged it. The briefcase remains unopened in the Weasleys' back room. The man in the suit is still unaccounted for. The Ministry's map omitted the back room. Day 4 should resolve the arc: either the briefcase is opened — with Christine present, under the Accord's terms — and what is inside either explains everything or explains nothing in a satisfying way; or the man in the suit reappears to collect it, and Christine's irregularity either helps or becomes irrelevant in a way she finds professionally interesting. The Pulp Fiction glowing-contents tradition should be honored: whatever is inside illuminates the room, satisfies the observer, and is not described."
+    },
+    {
+      "title": "Northeast by Nightfall",
+      "day": 1,
+      "of": 4,
+      "status": "active",
+      "summary": "New arc opening quietly: the Jeep has been parked facing northeast since Sunday afternoon. Steve has looked at it twice from a specific angle. No chart has been unfolded. The brass ducks are still facing southwest from the shelf. Something new is forming — a direction, a notation, a route not yet named. Day 2 should surface the first material evidence: a new notation, a map edge, or a name spoken aloud for the first time."
     }
   ]
 }
