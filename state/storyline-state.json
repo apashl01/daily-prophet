@@ -2,10 +2,10 @@
   "arcs": [
     {
       "title": "The Duck Waits",
-      "day": 0,
+      "day": 1,
       "of": 5,
-      "status": "pending",
-      "summary": "New arc to open in the next day or two. The duck on the Jeep's mirror has been facing north-northeast since Steve restored it Saturday. The Ministry's subcommittee noted it appears to be 'waiting.' A new duck — different colour, different posture — will be found on the Jeep within the next edition or two, left by the Duck Bandit. The arc will trace the slow revelation of who the Bandit is, what they know about the ridge, and whether the original duck is somehow involved. Day 1 should be the discovery of the new duck."
+      "status": "active",
+      "summary": "Day 1: A second duck — orange, upright — has appeared on the Jeep's passenger-side mirror, facing southeast, which is the precise bearing of Keeps Ridge from the front drive. The original duck remains on the driver's side facing north-northeast. The two ducks now face each other at forty-seven degrees across the bonnet. No tracks, no note. The Ministry subcommittee has reconvened. Lucy has taken a professional interest. Day 2 should deepen the mystery: perhaps a detail about the orange duck itself (a marking, a number, a small imperfection) that suggests the Bandit knows something specific, or a second sighting — the Bandit seen at the edge of the drive, or another token left nearby. The forty-seven degree angle between ducks may prove significant."
     }
   ]
 }
