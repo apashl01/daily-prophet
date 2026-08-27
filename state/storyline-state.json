@@ -1,3 +1,11 @@
 {
-  "arcs": []
+  "arcs": [
+    {
+      "title": "The Briefcase",
+      "day": 1,
+      "of": 5,
+      "status": "active",
+      "summary": "Day 1: A glowing, humming briefcase of unknown origin has been logged in the Ministry of Magic's Lost Property repository after being found on a bench in the Floo departure hall. The Department of Mysteries has neither claimed nor denied it. The discovering clerk has been reassigned. The briefcase is warm, continues to glow, and nobody has asked why. Day 2 should advance the mystery: perhaps someone attempts to open it (and cannot), or a second Ministry department quietly files a competing claim of ownership, or a witness reports having seen the briefcase before — somewhere else, sometime else, in the wrong order."
+    }
+  ]
 }
