@@ -2,10 +2,10 @@
   "arcs": [
     {
       "title": "The Briefcase",
-      "day": 1,
+      "day": 2,
       "of": 5,
       "status": "active",
-      "summary": "Day 1: A glowing, humming briefcase of unknown origin has been logged in the Ministry of Magic's Lost Property repository after being found on a bench in the Floo departure hall. The Department of Mysteries has neither claimed nor denied it. The discovering clerk has been reassigned. The briefcase is warm, continues to glow, and nobody has asked why. Day 2 should advance the mystery: perhaps someone attempts to open it (and cannot), or a second Ministry department quietly files a competing claim of ownership, or a witness reports having seen the briefcase before — somewhere else, sometime else, in the wrong order."
+      "summary": "Day 2: Three Ministry departments have filed competing claims of ownership — the Department of Mysteries, the Office of Unclassified Artefact Management, and an unnamed department that officially does not exist. An unattributed memo suggesting someone open the briefcase has circulated; its author is unknown (Lucy is the leading theory). The briefcase has not moved. The hum has deepened by a minor third. Day 3 should escalate toward an opening attempt — perhaps an Unspeakable is dispatched, or a junior clerk acts on the memo and reports something before the report is confiscated, or the briefcase briefly opens of its own accord and closes before anyone can confirm what they saw."
     }
   ]
 }
