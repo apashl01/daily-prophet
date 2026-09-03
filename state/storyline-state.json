@@ -2,10 +2,17 @@
   "arcs": [
     {
       "title": "The Porch Railing Situation",
-      "day": 3,
+      "day": 4,
       "of": 4,
       "status": "active",
-      "summary": "Day 3: Don's portrait has produced a detailed construction diagram confirming the northeast corner post is seated on 'a good flat piece of oak I had' rather than the specified bracket. Don stands by this. Steve has studied the diagram at length. Adam has received a copy and is still expected Saturday. Christine has updated the household ledger. The railing has not creaked today. Day 4 (resolution) should bring Adam's Saturday visit, the joint inspection by Steve and Adam, a verdict on the oak and the bracket, and a resolution that is satisfying, funny, and — in the tradition of all great home construction — slightly vindicates Don while also explaining why the railing creaked."
+      "summary": "Day 4: Adam has confirmed Saturday arrival. Steve and the railing observed a mutual silence through Thursday evening. The oak is structurally present. Don's portrait is confident. Christine's ledger is up to date. Day 4 (resolution, filing Saturday): Adam arrives, Steve and Adam conduct the inspection together, the level is consulted, the oak is assessed, the creak is explained — something satisfying, funny, and slightly vindicating for Don. The bracket question is settled, one way or another, in the tradition of all great home construction."
+    },
+    {
+      "title": "The Duck Bandit Chronicles",
+      "day": 1,
+      "of": 5,
+      "status": "active",
+      "summary": "Day 1: A twelfth duck has appeared on the Jeep wearing a small orange knitted scarf. The deerstalker duck remains in position. No one has touched the new duck. The Duck Bandit's methods are escalating from placement to costuming. Day 2 should develop the mystery — perhaps the scarf matches nothing in the household, or a second accessory appears on a different duck, or someone in the wider wizarding Jeep community reports a similar incident and the Prophet begins to suspect a pattern."
     }
   ]
 }
