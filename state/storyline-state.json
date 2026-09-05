@@ -1,18 +1,11 @@
 {
   "arcs": [
     {
-      "title": "The Porch Railing Situation",
-      "day": 4,
-      "of": 4,
-      "status": "active",
-      "summary": "Day 4 (Friday): The railing spent the day in silence. Steve has located the level. Don's portrait is confident. Adam arrives Saturday. Resolution files Saturday: the joint inspection, the level, the oak, the bracket question, a verdict that is satisfying, funny, and slightly vindicating for Don. Resolve this arc in Saturday's edition."
-    },
-    {
       "title": "The Duck Bandit Chronicles",
-      "day": 2,
+      "day": 3,
       "of": 5,
       "status": "active",
-      "summary": "Day 2: A second duck (the Admiral) has been given a miniature captain's hat of unknown origin. The orange-scarf twelfth duck remains dressed. The wool matches no known manufacturer. Two other wizarding Jeep owners in separate locations have reported similar incidents — a ribbon, a moved duck — suggesting the Duck Bandit operates regionally, possibly nationally. The Gorge ducks were found unadorned Friday morning. Day 3 should develop the Bandit's apparent methodology or motivation — perhaps a pattern emerges across the accessorised ducks (they all share something in common), or a witness account surfaces, or the hat's provenance is partially traced."
+      "summary": "Day 3: Seven accessorised duck incidents confirmed across three counties. In every case, the dressed duck faces a specific direction — northeast, east-southeast, or toward a notable but unspecified landmark. The WJES has produced a map; the lines do not quite converge. The wool was identified as 'handspun, cheerful intent.' The hat stitching as 'confident, someone who has made hats before.' The Bandit's purpose remains unclear. Day 4 should advance the cartographic mystery — perhaps the lines do converge after all if the map is oriented differently, or a new duck appears on the Jeep with a different accessory pointing in the missing direction, or a partial witness sighting surfaces."
     }
   ]
 }
